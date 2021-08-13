@@ -27,10 +27,11 @@ cp -ar /etc/profile.d .
 cp -ar /packages .
 cp /etc/singularity/singularity.conf .
 
+AFS_VER=`dpkg -l | grep openafs-client | awk {'print $3'}`
 
 m-a a-b openafs > /dev/null 2>&1
 
-cp /usr/src/openafs-modules-`uname -r`_1.8.6-1+zs2+`uname -v | grep -Po "Debian \K[^ ]+"`_amd64.deb .
+cp /usr/src/openafs-modules-`uname -r`_${AFS_VER}+`uname -v | grep -Po "Debian \K[^ ]+"`_amd64.deb .
 
 git update-index --refresh > /dev/null
 if ! git diff-index --quiet HEAD --; then

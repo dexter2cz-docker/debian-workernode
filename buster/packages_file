@@ -5,6 +5,7 @@ acpid
 adduser
 adwaita-icon-theme
 aglfn
+amd64-microcode
 apparmor
 apt
 apt-file
@@ -228,10 +229,12 @@ initramfs-tools
 initramfs-tools-core
 install-info
 installation-report
+intel-microcode
 intltool-debian
 iozone3
 iperf
 iproute2
+ipset
 iptables
 iputils-arping
 iputils-ping
@@ -239,6 +242,7 @@ isc-dhcp-client
 isc-dhcp-common
 iso-codes
 ispell
+iucode-tool
 javascript-common
 kbd
 keyboard-configuration
@@ -683,6 +687,7 @@ libip4tc0
 libip6tc0
 libipc-run-perl
 libipc-system-simple-perl
+libipset11
 libipt2
 libiptc0
 libirs161
@@ -1164,9 +1169,9 @@ libzstd-dev
 libzstd1
 linux-base
 linux-compiler-gcc-8-x86
-linux-headers-4.19.0-12-amd64
-linux-headers-4.19.0-12-common
-linux-image-4.19.0-12-amd64-unsigned
+linux-headers-4.19.0-17-amd64
+linux-headers-4.19.0-17-common
+linux-image-4.19.0-17-amd64-unsigned
 linux-kbuild-4.19
 linux-libc-dev
 lmdb-doc

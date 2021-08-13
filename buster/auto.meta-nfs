@@ -1,8 +1,8 @@
 brno1-cerit             -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr storage-brno1-cerit.metacentrum.cz:/
-#brno2                  -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr storage-brno2.metacentrum.cz:/
+brno2                   -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr storage-brno2.metacentrum.cz:/
 brno3-cerit             -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr storage-brno3-cerit.metacentrum.cz:/
 brno6                   -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr,vers=4.0 storage-brno6.metacentrum.cz:/
-brno9-ceitec            -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr storage-brno9-ceitec.metacentrum.cz:/
+brno9-ceitec            -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr,ro storage-brno9-ceitec.metacentrum.cz:/
 brno10-ceitec-hsm       -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr storage-brno10-ceitec-hsm.metacentrum.cz:/
 brno11-elixir           -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr storage-brno11-elixir.metacentrum.cz:/
 brno12-cerit            -fstype=nfs4,sec=krb5i,proto=tcp,port=2049,intr storage-brno12-cerit.metacentrum.cz:/
